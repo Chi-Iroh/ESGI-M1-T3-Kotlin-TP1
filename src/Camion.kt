@@ -5,6 +5,6 @@ class Camion(private var marque: String, private var anneeFarication: Int, priva
     }
 
     override fun klaxonner() {
-        print("BIIIIIP")
+        println("BIIIIIP")
     }
 }

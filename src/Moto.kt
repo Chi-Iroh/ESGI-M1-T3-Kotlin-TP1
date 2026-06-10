@@ -5,6 +5,6 @@ class Moto(private var marque: String, private var anneeFarication: Int, private
     }
 
     override fun klaxonner() {
-        print("bip")
+        println("bip")
     }
 }
