@@ -1,4 +1,4 @@
-class Camion(private var marque: String, private var anneeFarication: Int, private var couleur: String): Vehicule(marque,anneeFarication, couleur) {
+class Camion(private var marque: String, private var anneeFabrication: Int, private var couleur: String): Vehicule(marque, anneeFabrication, couleur) {
     override fun afficherDetails() {
         print("Camion: ")
         super.afficherDetails()
